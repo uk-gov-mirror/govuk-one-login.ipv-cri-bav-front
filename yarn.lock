@@ -723,13 +723,6 @@
   dependencies:
     "@cucumber/messages" ">=31.0.0 <33"
 
-"@cucumber/gherkin@^28.0.0":
-  version "28.0.0"
-  resolved "https://registry.yarnpkg.com/@cucumber/gherkin/-/gherkin-28.0.0.tgz#91246da622524807b21430c1692bedd319d3d4bb"
-  integrity sha512-Ee6zJQq0OmIUPdW0mSnsCsrWA2PZAELNDPICD2pLfs0Oz7RAPgj80UsD2UCtqyAhw2qAR62aqlktKUlai5zl/A==
-  dependencies:
-    "@cucumber/messages" ">=19.1.4 <=24"
-
 "@cucumber/html-formatter@23.0.0":
   version "23.0.0"
   resolved "https://registry.yarnpkg.com/@cucumber/html-formatter/-/html-formatter-23.0.0.tgz#066f548f55274b58b67b4930836bd73579a9bf07"
@@ -757,16 +750,6 @@
   dependencies:
     class-transformer "0.5.1"
     reflect-metadata "0.2.2"
-
-"@cucumber/messages@>=19.1.4 <=24":
-  version "24.1.0"
-  resolved "https://registry.yarnpkg.com/@cucumber/messages/-/messages-24.1.0.tgz#a212c97b0548144c3ccfae021a96d6c56d3841d3"
-  integrity sha512-hxVHiBurORcobhVk80I9+JkaKaNXkW6YwGOEFIh/2aO+apAN+5XJgUUWjng9NwqaQrW1sCFuawLB1AuzmBaNdQ==
-  dependencies:
-    "@types/uuid" "9.0.8"
-    class-transformer "0.5.1"
-    reflect-metadata "0.2.1"
-    uuid "9.0.1"
 
 "@cucumber/messages@>=31.0.0 <33", "@cucumber/messages@^32.0.0":
   version "32.3.1"
@@ -1746,11 +1729,6 @@
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.3.tgz#6209321eb2c1712a7e7466422b8cb1fc0d9dd5d8"
   integrity sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw==
-
-"@types/uuid@9.0.8":
-  version "9.0.8"
-  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-9.0.8.tgz#7545ba4fc3c003d6c756f651f3bf163d8f0f29ba"
-  integrity sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==
 
 "@types/yargs-parser@*":
   version "21.0.3"
@@ -3354,7 +3332,7 @@ glob-parent@~5.1.2:
   dependencies:
     is-glob "^4.0.1"
 
-glob@^10.2.6, glob@^10.3.10, glob@^10.5.0:
+glob@^10.2.6, glob@^10.5.0:
   version "10.5.0"
   resolved "https://registry.yarnpkg.com/glob/-/glob-10.5.0.tgz#8ec0355919cd3338c28428a23d4f24ecc5fe738c"
   integrity sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==
@@ -3993,16 +3971,6 @@ jest-config@30.4.2:
     pretty-format "30.4.1"
     slash "^3.0.0"
     strip-json-comments "^3.1.1"
-
-jest-cucumber@4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/jest-cucumber/-/jest-cucumber-4.5.0.tgz#bffa172cfa40b15a81cce4f04326e198beffa7ee"
-  integrity sha512-EGVqkeE6xM/wnpWuLuB3AMQs4vNkLDwOuH3bsH2AigphAqDp+k3E+AIh0FAKhJ/1IjLTfZKyupIPRlYN62YZ+A==
-  dependencies:
-    "@cucumber/gherkin" "^28.0.0"
-    callsites "^3.0.0"
-    glob "^10.3.10"
-    uuid "^10.0.0"
 
 jest-diff@30.2.0:
   version "30.2.0"
@@ -5503,11 +5471,6 @@ redis@4.7.1:
     "@redis/search" "1.2.0"
     "@redis/time-series" "1.1.0"
 
-reflect-metadata@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.2.1.tgz#8d5513c0f5ef2b4b9c3865287f3c0940c1f67f74"
-  integrity sha512-i5lLI6iw9AU3Uu4szRNPPEkomnkjRTaVt9hy/bn5g/oSzekBSMeLZblcjP74AW0vBabqERLLIrz+gR8QYR54Tw==
-
 reflect-metadata@0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.2.2.tgz#400c845b6cba87a21f2c65c4aeb158f4fa4d9c5b"
@@ -6248,7 +6211,7 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
 
-uuid@11.1.1, uuid@9.0.1, uuid@^10.0.0, uuid@^11.1.0:
+uuid@^11.1.0:
   version "11.1.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-11.1.1.tgz#f6d81d2e1c65d00762e5e29b16c5d2d995e208ad"
   integrity sha512-vIYxrBCC/N/K+Js3qSN88go7kIfNPssr/hHCesKCQNAjmgvYS2oqr69kIufEG+O4+PfezOH4EbIeHCfFov8ZgQ==
